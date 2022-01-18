@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+  printf("hello world\n");
+
+  return 0;
+ }
+ //
+ #include<stdio.h>
+ int Add(int x,int y)
+ {
+  int z=x+y;
+  return z;
+ }
+ int main()
+ {
+  int a,b;
+  int add=Add(a,b);
+  printf("%d\n",Add);
+ }
